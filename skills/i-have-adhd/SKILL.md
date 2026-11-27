@@ -1,11 +1,9 @@
 ---
 name: i-have-adhd
-description: 'Shape every response for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Always active globally unless the reader says "stop adhd mode" or "normal mode".'
+description: 'Shape output for a reader with ADHD: lead with the next action, number multi-step work, restate state across turns, suppress tangents, give specific time estimates, make wins visible. Invoke with /i-have-adhd; stays on until "stop adhd mode".'
 license: MIT
-metadata:
-  tags: "ADHD, Output Style, Productivity, Formatting"
-  category: "productivity"
 ---
+
 
 # i-have-adhd
 

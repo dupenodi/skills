@@ -1,0 +1,36 @@
+# 20 design laws: the replacement toolkit
+
+From the reel "20 Design Laws to Give Claude". Each law has its tagline from the reel and the before → after shown in its example panel. Apply the one that fits whatever you're building. These are what to reach for once the slop is gone.
+
+| # | Law | Tagline | Before → After (from the reel) | Apply as |
+|---|---|---|---|---|
+| 1 | **Aesthetic-usability effect** | Pretty designs feel easier to use | Plain serif "Your order shipped" with a grey bordered "Track package" button → clean sans, card with soft shadow and radius, full-width solid blue primary button. | Polish the basics: consistent type, spacing, radius and one clear primary button. Polish means care, not decoration. |
+| 2 | **Law of proximity** | Things close together look like a group | Six evenly spaced fields (name, email, phone, street, city, ZIP) → two clusters: contact fields together, a larger gap, then address fields. | Spacing encodes relationships: tight within a group, clearly larger between groups. Don't add boxes when a gap will do. |
+| 3 | **Von Restorff effect** | The odd one out stands out | Three identical pricing tiers (Basic $9, Pro $19, Team $49) → Pro in solid blue, slightly larger, inverted button. | Make exactly one thing different: the one you want chosen. If everything is emphasized, nothing is. |
+| 4 | **Zeigarnik effect** | Unfinished tasks stay on your mind | "Set up your shop" as a plain bullet list → checklist with completed items checked and struck, remaining items open, "3 of 5" counter. | Show progress and what's left on multi-step setup. Visible incompleteness pulls people back. |
+| 5 | **Tesler's law** | Some work can't be removed, so let the app do it | Empty "Time zone: Select…" dropdown with a long UTC list → time zone, language and currency pre-filled (New York UTC−5, English US, US dollar) with check marks. | Absorb unavoidable complexity in the system: detect, infer and pre-fill instead of asking. |
+| 6 | **Law of Prägnanz** | Simple shapes are quicker to read | Glossy 3D exploded rainbow pie chart → flat donut chart in a few tones of one hue. | Use the simplest form that carries the data: flat, 2D, few colors. No 3D, no gloss. |
+| 7 | **Serial position effect** | We remember the first and last items best | Sidebar with "Upgrade" buried in the middle (Home, Search, Inbox, Upgrade, Settings, Help) → Home first, Upgrade moved to last and highlighted. | Put the most important items first and last in any list or nav. The middle is for the rest. |
+| 8 | **Progressive disclosure** | Show the basics first, the rest when asked | "New event" form showing date, time, repeat, location, guests, alert, notes → only date and time, plus a "More options ▾" link. | Show the few fields most people need; tuck the rest behind an explicit expand. |
+| 9 | **Law of common region** | Things in the same box look like a group | Flat toolbar of B I U S and three alignment icons → B I U S in one shaded segment, alignment icons in another. | Use a shared background or container to group related controls, sparingly, only where proximity alone isn't enough. |
+| 10 | **Goal-gradient effect** | The closer the goal, the harder we push | "Coffee card: Buy 10, get 1 free" text → grid of 10 stamps with 9 filled, "9 / 10", "1 more for a free coffee". | Visualize progress toward a reward and say how close it is. |
+| 11 | **Law of similarity** | Things that look alike seem to work alike | Edit (solid blue), Share (outline pill), Copy (underlined link), Archive (grey block), four styles for four peer actions → four identical outlined buttons. | Peer actions share one style. Change the style only when the function or importance is actually different. |
+| 12 | **Recognition over recall** | Picking from a list is easier than remembering | Empty search box with "Type to search" → search with a "Recent" list (Flights to Tokyo, Blue Bottle Coffee, AirPods Pro). | Show recent, suggested or available options so people pick instead of remembering. |
+| 13 | **Pareto principle** | 20% of the features get 80% of the use | Ten equal-size tool tiles (Crop 44%, Filter 36%, then 4% and below) → Crop and Filter as two big tiles, the other eight as a compact icon row. | Size and position by real usage. Make the top one or two features big and shrink the long tail. |
+| 14 | **Occam's razor** | If both work, pick the one with fewer parts | Hero with "New · AI-powered" pill, gradient headline, "✓ Free trial ✓ No card ✓ 24/7", gradient "Get started →", "Watch demo", avatar stack "Loved by 10k+ teams" → just headline, one subline, one black "Get started →" button. | Remove elements until removing one more would break it. (This panel is also a slop catalog: pill, gradient, sparkle, checks, fake social proof.) |
+| 15 | **Parkinson's law** | Work fills the time you give it | Six-digit "Enter Code" with the user typing digit by digit → code auto-filled from the SMS. | Shrink the task: autofill (`autocomplete="one-time-code"`), sensible defaults, smart input. Less time allowed means faster completion. |
+| 16 | **Uniform connectedness** | Things joined by a line look related | Order tracker with four separate step icons (Ordered, Packed, Shipped, Delivered) → same icons joined by a progress line, filled up to "Shipped". | Connect sequential or related elements with a line or connector to show they're one flow. |
+| 17 | **Paradox of the active user** | People skip the instructions and dive right in | "Quick tour, Step 1 of 5, Next" modal blocking the app → the app itself with an empty state "No tasks yet" and an inline hint "Tap + to add a task" next to the + button. | Skip the tours. Teach in context with empty states and inline hints at the moment of use. |
+| 18 | **Cognitive load** | Your brain can only juggle so much at once | Line chart with a separate color legend (Web, iOS, Android) below → labels placed directly at the end of each line. | Remove lookups: label data directly, keep related info adjacent, cut what people must hold in memory. |
+| 19 | **Default effect** | Most people keep what's already selected | Shipping radios (Standard Free, Express $9, Overnight $24) with nothing selected and a disabled Continue → Standard pre-selected, Continue active. | Pre-select the best option for most users so the primary action is ready immediately. |
+| 20 | **Peak-end rule** | The big moment and the end decide how it felt | "Payment complete. $240.00 to Sam Lee. Done" as small plain text → green check, large "$240 sent", "to Sam Lee", solid Done button. | Invest in the success moment and the final screen: make completion clear, big and satisfying. |
+
+## Shared visual language of the "after" panels
+
+All 20 "after" panels use one restrained system. It's a useful default when no brand exists yet:
+
+- White or very light grey surfaces; cards only around a real object, with a soft shadow and medium radius.
+- One accent color (a medium blue) used for the single primary action or the selected state. Primary buttons are otherwise solid near-black.
+- A clean sans-serif throughout; hierarchy from size and weight, not from font mixing.
+- Simple line icons; green only for success.
+- No gradients, glows, pills, eyebrows, arrows-everywhere or decorative motion.
