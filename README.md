@@ -15,6 +15,7 @@ The skills I use with Claude Code and Cursor. Each skill is a folder with a `SKI
 | [`i-have-adhd`](skills/i-have-adhd) | Shapes responses for a reader with ADHD. |
 | [`launch-video-studio`](skills/launch-video-studio) | Creative direction for motion/launch videos made in code. |
 | [`product-launch-video`](skills/product-launch-video) | Remotion workflow: brief → storyboard → render → review → iterate. |
+| [`simple-writing`](skills/simple-writing) | Writes in Simplified Technical English (ASD-STE100): short sentences, simple words, and no AI phrasing. |
 
 ## Third-party skills included
 
